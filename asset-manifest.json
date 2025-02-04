@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BitByteStudio/static/css/main.4c2b6675.css",
+    "main.js": "/BitByteStudio/static/js/main.1573859f.js",
+    "static/js/488.0057e29a.chunk.js": "/BitByteStudio/static/js/488.0057e29a.chunk.js",
+    "index.html": "/BitByteStudio/index.html",
+    "main.4c2b6675.css.map": "/BitByteStudio/static/css/main.4c2b6675.css.map",
+    "main.1573859f.js.map": "/BitByteStudio/static/js/main.1573859f.js.map",
+    "488.0057e29a.chunk.js.map": "/BitByteStudio/static/js/488.0057e29a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c2b6675.css",
+    "static/js/main.1573859f.js"
+  ]
+}
