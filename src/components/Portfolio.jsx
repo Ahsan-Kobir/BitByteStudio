@@ -25,7 +25,7 @@ export const Portfolio = () => {
               className="group relative overflow-hidden rounded-lg"
             >
               <div className="h-64 bg-gray-700/30 group-hover:bg-gray-700/50 transition-colors" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/60 transition-opacity">
+              <div className="absolute inset-0 flex items-center justify-center opacity-100 group-hover:opacity-100 bg-green/60 transition-opacity">
                 <div className="text-center">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-400">{project.category}</p>
