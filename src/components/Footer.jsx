@@ -3,8 +3,8 @@ import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from '@radix-ui/rea
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900/80 py-10 mt-20">
-      <div className="container mx-auto px-6">
+    <footer className="bg-light-card/80 dark:bg-dark-card/80 border-t border-light-border dark:border-dark-border py-10 mt-20">
+      <div className="container border-t border-light-border/30 dark:border-dark-border/30 mt-8 pt-8 text-center text-light-foreground/80 dark:text-dark-foreground/80 mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

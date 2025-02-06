@@ -41,7 +41,7 @@ export const Contact = () => {
             <Input
               {...register('name')}
               placeholder="Your Name"
-              className="w-full bg-gray-700/30 border-gray-600"
+              className="w-full bg-light-card dark:bg-dark-card border-light-border dark:border-dark-border text-light-foreground dark:text-dark-foreground placeholder:text-light-foreground/60 dark:placeholder:text-dark-foreground/60"
             />
             {errors.name && (
               <p className="text-sm text-red-500 mt-1">{errors.name.message}</p>
@@ -51,7 +51,7 @@ export const Contact = () => {
             <Input
               {...register('email')}
               placeholder="Your Email"
-              className="w-full bg-gray-700/30 border-gray-600"
+              className="w-full bg-light-card dark:bg-dark-card border-light-border dark:border-dark-border text-light-foreground dark:text-dark-foreground placeholder:text-light-foreground/60 dark:placeholder:text-dark-foreground/60"
             />
             {errors.email && (
               <p className="text-sm text-red-500 mt-1">{errors.email.message}</p>
@@ -61,7 +61,7 @@ export const Contact = () => {
             <Textarea
               {...register('message')}
               placeholder="Your Message"
-              className="w-full bg-gray-700/30 border-gray-600"
+              className="w-full bg-light-card dark:bg-dark-card border-light-border dark:border-dark-border text-light-foreground dark:text-dark-foreground placeholder:text-light-foreground/60 dark:placeholder:text-dark-foreground/60"
               rows={5}
             />
             {errors.message && (

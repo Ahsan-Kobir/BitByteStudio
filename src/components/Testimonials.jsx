@@ -23,7 +23,8 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-20 px-6 bg-gray-800/50">
+
+    <section id="testimonials" className="py-20 px-6 bg-light-accent/50 dark:bg-dark-accent/50">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">What Our Clients Say</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -34,7 +35,7 @@ export const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-gray-700/30 p-6 rounded-lg"
+              className="bg-light-card dark:bg-dark-card p-6 rounded-lg border border-light-border dark:border-dark-border"
             >
               <div className="flex items-center space-x-4 mb-4">
                 <img
