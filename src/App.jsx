@@ -6,6 +6,7 @@ import { Portfolio } from './components/Portfolio';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { Team } from './components/Team';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Hero />
       <Services />
       <Portfolio />
+      <Team />
       <Testimonials />
       <Contact />
       <Footer />
